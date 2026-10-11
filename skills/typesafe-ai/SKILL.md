@@ -92,6 +92,10 @@ For open-ended requests, offer the few directions that best serve the user's goa
 and recommend a starting point. For a concrete request, choose the relevant pattern
 and build; a brainstorm is not a mandatory detour.
 
+## Conditional application patterns
+
+For an explicitly requested feature, use only the matching [scoped application pattern](references/scoped-application-patterns.md): corpus grouping/activity/customer-demand comparison; live search or clips; permitted UI assembly/filtering; browser action/target selection; semantic spreadsheet columns; or changed-criteria refresh. Preserve this supplier's live-document, primitive, code-composition and verification guidance. These patterns do not mandate TypeSafe for an adequate deterministic task or grant data, tool, spend or execution authority.
+
 ## Design the judgments
 
 Choose by what the answer means, then read the relevant primitive page:
