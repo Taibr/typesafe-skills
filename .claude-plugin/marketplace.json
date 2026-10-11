@@ -1,14 +1,14 @@
 {
   "name": "typesafe-ai",
-  "description": "Agent skills for building with the TypeSafe System One API.",
+  "description": "Maintained fork of the TypeSafe/Jev provider skill.",
   "owner": {
-    "name": "TypeSafe AI",
-    "url": "https://typesafe.ai"
+    "name": "Taibr",
+    "url": "https://github.com/Taibr"
   },
   "plugins": [
     {
       "name": "typesafe",
-      "description": "Full context on the TypeSafe API: question types, architectural patterns, and best practices",
+      "description": "TypeSafe/Jev provider capabilities, live documentation and primitive semantics",
       "source": "./"
     }
   ]

@@ -1,12 +1,12 @@
 {
   "name": "typesafe",
-  "version": "0.5.7",
-  "description": "Agent skills for building with the TypeSafe System One API.",
+  "version": "0.5.8",
+  "description": "Maintained fork of the TypeSafe/Jev provider skill; shared decision methods have a separate owner.",
   "author": {
-    "name": "TypeSafe AI",
-    "url": "https://typesafe.ai"
+    "name": "Taibr",
+    "url": "https://github.com/Taibr"
   },
   "homepage": "https://typesafe.ai",
-  "repository": "https://github.com/typesafe-ai/skills",
+  "repository": "https://github.com/Taibr/typesafe-skills",
   "license": "MIT"
 }

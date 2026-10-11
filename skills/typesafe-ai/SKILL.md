@@ -2,18 +2,18 @@
 name: typesafe-ai
 license: MIT
 description: >
-  Build AI-powered software with TypeSafe: small units of AI intelligence you
-  can use like programming primitives. Its System One models, including Jev,
-  turn natural language and application state into typed judgments and
-  probabilities that code can combine. Use when a feature needs programmable
-  common sense, when brainstorming what AI could make possible in an app, or
-  when an LLM prompt-and-parse step could become a structured decision.
-  Applications include routing, ranking, extraction, verification, and
-  interactive experiences; these are starting points, not the limits.
-  Read live docs and cookbooks to find useful patterns and discover new combinations.
+  Use TypeSafe and Jev provider capabilities for explicitly requested typed
+  decision applications and agent-workflow integration guidance. Read current
+  API, primitive, confidence and cookbook documentation; compose judgments in
+  code and preserve the existing native AOC route for agent-workflow operations.
+  Shared decision methods belong to design-typed-decisions.
 ---
 
 # Build with TypeSafe
+
+Use this provider skill only when explicitly requested. Jev is the TypeSafe provider
+covered here; this documentation skill grants no new data,
+spend, action or native adapter authority.
 
 TypeSafe makes units of AI intelligence usable like programming primitives: small
 judgments you can compose into larger capabilities. Its **System One models** return
@@ -92,6 +92,16 @@ For open-ended requests, offer the few directions that best serve the user's goa
 and recommend a starting point. For a concrete request, choose the relevant pattern
 and build; a brainstorm is not a mandatory detour.
 
+## Shared decision methods
+
+The optional [design-typed-decisions skill](https://github.com/Taibr/agent-skills-sync/blob/main/skills/general/design-typed-decisions/SKILL.md)
+owns provider-independent methods for applications and agent workflows, including
+the scoped application patterns formerly packaged here. Invoke that skill only
+when explicitly requested; its canonical owner is separate from this provider.
+Do not install a second Jev skill or copy its method resource into this folder.
+If the shared skill is unavailable, report that limitation; the TypeSafe live
+documentation remains sufficient for provider-specific guidance below.
+
 ## Design the judgments
 
 Choose by what the answer means, then read the relevant primitive page:
@@ -147,3 +157,15 @@ inspect the exact state, questions, candidates, answers, composition, and observ
 outcome. Separate missing evidence, model errors, code errors, and service failures.
 Treat cookbook thresholds and demo results as examples to evaluate, not universal
 rules or permanent model limitations. Keep API credentials server-side in web apps.
+
+## Native agent workflows
+
+For agent-workflow decisions, follow the existing native [AOC decision contracts](https://github.com/Taibr/agent-skills-sync/blob/main/docs/decision-support.md).
+AOC owns task/catalogue/decision/resolve, receipts, recovery, execution evidence
+and assessment; existing permission, worker/model, review and CI owners remain
+authoritative. These TypeSafe capability docs do not change fixed catalogue
+questions, activate adapters or make direct provider results into native receipts.
+A blocked or unavailable native route cannot be bypassed with a direct Jev call.
+Portable design guidance is usable by compatible agents; native operational
+support must be verified in the actual runtime rather than inferred from skill
+installation. Preserve the user's selected provider and supported route.
